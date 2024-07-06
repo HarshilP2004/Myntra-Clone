@@ -1,0 +1,289 @@
+<html>
+<head>
+    <title>MYNTRA CLONE</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+<style>
+    .bold{
+        font-weight: bolder;
+    }
+    .BrandName{
+        font-size:45px;
+        font-weight: bold;
+    }
+    .ClothsPrice{
+        font-family: cursive;
+        font-size: 25px;
+        text-decoration: underline;
+    }
+    .CommonTitle{
+        padding-top: 5%;
+        padding-left: 4%;
+        padding-bottom: 5%;
+        font-weight: bolder;
+        color: rgb(99, 89, 89);
+        font-size:30px;
+    }
+    .CommonTitle:hover{
+        color: black;
+    }
+    /* .ColHeight{
+        height: 250px;
+        border: 1px solid black;
+    } */
+    .ImageDetailTitle{
+        color: grey;
+        padding-left: 15px;
+    }
+    .SeeMore{
+        text-decoration: none; 
+        padding-left:50px; 
+        color: green;
+    }
+    a:hover{
+        color: green;
+    }
+    .ProductImage{
+        border-radius:35px;
+    }
+
+
+</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-sm">
+    <div class="container-fluid">
+        <ul class="navbar-nav" style="padding-top:3px;">
+            <li class="nav-item" style="padding-left: 3%;">
+                <a href="#" class="navbar-brand"><img src="MyntraLogo.jpeg" style="width:70px" class="rounded-pill"></a>
+            </li>
+            <li class="nav-item bold" style="padding-left:7%; padding-top:1%;">
+                <a href="Men.html" class="nav-link">MENS</a>
+            </li>
+            <li class="nav-item bold" style="padding-top:1%; padding-left:3%;">
+                <a href="Women.html" class="nav-link">WOMENS</a>
+            </li>
+            <li class="nav-item bold" style="padding-top:1%; padding-left:3%;">
+                <a href="Kids.html" class="nav-link">KIDS</a>
+            </li>
+            <li class="nav-item bold" style="padding-top:1%; padding-left:3%;">
+                <a href="Homes.html" class="nav-link">HOMES</a>
+            </li>
+            <li class="nav-item bold" style="padding-top:1%; padding-left:3%;">
+                <a href="Beauty.html" class="nav-link">BEAUTY</a>
+            </li>
+            <li class="nav-item bold" style="padding-top:1%; padding-left:3%;">
+                <a href="Studio.html" class="nav-link">STUDIO</a>
+            </li>
+            <li class="nav-item bold" style="padding-top:1%; padding-left:38%;">
+                <a href="Sign-up.html" class="nav-link">SIGN_UP</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!-- Carousel -->
+<div id="demo1" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo1" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#demo1" data-bs-slide-to="4"></button>
+    </div>
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="carousel_image_1.jpeg" alt="AHMEDABAD" class="d-block" style="width:100%;height:50%">
+            <div class="carousel-caption">
+                <h3 class="BrandName">TOPS & TEES</h3>
+                <p class="ClothsPrice">Under ₹699</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="carousel_image_2.jpeg" alt="Gandhinagar" class="d-block" style="width:100%; height:50%">
+            <div class="carousel-caption">
+                <h3 class="BrandName">WESTERN WEAR</h3>
+                <p class="ClothsPrice">MIN 30% OFF</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="carousel_image_3.jpeg" alt="Gandhinagar" class="d-block" style="width:100%; height:50%">
+            <div class="carousel-caption">
+                <h3 class="BrandName">HANDBAGS</h3>
+                <p class="ClothsPrice">MIN 60% OFF</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="carousel_image_4.jpeg" alt="Gandhinagar" class="d-block" style="width:100%; height:50%">
+            <div class="carousel-caption">
+                <h3 class="BrandName">U.S. POLO ASSN.</h3>
+                <p class="ClothsPrice">UPTO 50% OFF</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="carousel_image_5.jpeg" alt="Gandhinagar" class="d-block" style="width:100%; height:50%">
+            <div class="carousel-caption">
+                <h3 class="BrandName">ACTIVE WEARS</h3>
+                <p class="ClothsPrice">50%-80% OFF</p>
+            </div>
+        </div>
+    </div>
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+<div>
+    <pre class="CommonTitle" align="center">M E D A L   W O R T H Y    B R A N D S   T O   B A G</pre>
+        <div class="row">
+            <div class="col col-sm-2 ColHeight">
+                <img src="images1.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Bestselling Casauls<br>MIN. 40% OFF <br> <a href="BestsellingCasauls1.html" class="SeeMore">See more</a></p>    
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="image2.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Cruelty-Free Care<br>BUY 1 GET 1 <br> <a href="Cosmetic1.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images3.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Must-Haves Ethnic Wear<br>FLAT 65% OFF <br> <a href="Ethnic_Wear1.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images4.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Stylish Collection Sarees<br>MIN. 85% OFF <br> <a href="DesignerSarees.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images5.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Designer Sarees <br>UNDER ₹699 <br> <a href="Sarees.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images6.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Elegant Ethnic Styles<br>MIN. 70% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>  
+        </div>           
+<div>
+    <pre class="CommonTitle" align="center">G R A N D   G L O B A L   B R A N D S</pre>
+    <div>
+        <div class="row">
+            <div class="col col-sm-2 ColHeight">
+                <img src="images7.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Hottest Pairs<br>MIN. 30% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images8.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Stunning Footwear<br>UP TO 60% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images9.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Sneakers & More<br>MIN. 40% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images11.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Must-Have Collection<br>UP TO 50% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images12.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Laid-Back Styles <br>MIN. 30% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images10.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Everyday Wear <br>UP TO 70% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div>
+    <pre class="CommonTitle" align="center">S H O P   B Y   C A T E G O R Y</pre>
+    <div>
+        <div class="row">
+            <div class="col col-sm-2 ColHeight">
+                <img src="images7.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Hottest Pairs<br>MIN. 30% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images8.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Stunning Footwear<br>UP TO 60% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images9.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Sneakers & More<br>MIN. 40% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images11.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Must-Have Collection<br>UP TO 50% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images12.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Laid-Back Styles <br>MIN. 30% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images10.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Everyday Wear <br>UP TO 70% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            
+        </div>  <br><br>
+        <div class="row">
+            <div class="col col-sm-2 ColHeight">
+                <img src="images7.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Hottest Pairs<br>MIN. 30% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images8.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Stunning Footwear<br>UP TO 60% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images9.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Sneakers & More<br>MIN. 40% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images11.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Must-Have Collection<br>UP TO 50% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images12.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Laid-Back Styles <br>MIN. 30% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images10.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Everyday Wear <br>UP TO 70% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            
+        </div>  <br><br>
+        <div class="row">
+            <div class="col col-sm-2 ColHeight">
+                <img src="images7.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Hottest Pairs<br>MIN. 30% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images8.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Stunning Footwear<br>UP TO 60% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images9.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Sneakers & More<br>MIN. 40% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images11.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Must-Have Collection<br>UP TO 50% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images12.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Laid-Back Styles <br>MIN. 30% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            <div class="col col-sm-2 ColHeight">
+                <img src="images10.jpeg" alt="Not Found" height="200px" width="200px" class="ProductImage">
+                <p class="ImageDetailTitle">Everyday Wear <br>UP TO 70% OFF <br> <a href="Beauty.html" class="SeeMore">See more</a></p>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
